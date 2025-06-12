@@ -1,2 +1,2 @@
-# DBS
-Address the security issues as identified in the hospital database
+# Abstract
+This project investigates and strengthens the database security posture of the MedicalInfoSystem used by APU Hospital. Through a comprehensive security audit, 22 vulnerabilities were identified across three core areas: data protection, permission management, and auditing. Key issues included SQL injection, plaintext storage of sensitive data, inadequate access control, and lack of audit trails. Each issue was addressed using SQL Server security features such as dynamic data masking, encryption, role-based access control, triggers, stored procedures, Change Data Capture, and server-level auditing. The implemented solutions significantly improved the system’s confidentiality, integrity, and availability, ensuring compliance and operational resilience in a healthcare environment.
